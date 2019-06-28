@@ -1,6 +1,6 @@
 - Aprendiendo C
 
-El objetivo de este repositorio es documentar todo el proceso de aprendizaje en este lenguaje de programación, desde cero y con la vista puesta en la primera piscina de 42 Madrid.
+El objetivo de este repositorio es documentar todo el proceso de aprendizaje en este lenguaje de programación, desde cero y con la vista puesta en la primera piscina de 42 Madrid, para tener los conocimientos más básicos y aprovechar aún más la experiencia.
 
 La forma de documentar este proceso será sobre el propio código, describiendo la función y la razón de cada una de las expresiones que se utilizan en los ejercicios, en forma de comentario, sin importar si dicha expresión ha sido utilizada en ejercicios previos.
 
@@ -27,3 +27,7 @@ Con este ejemplo, vamos a imprimir una línea que dice "Hola 42".
 04b - Entradas y Salidas de datos - Pidiendo un nombre: Vamos a solicitar al usuario que introduzca su nombre, e imprimirlo posteriormente.
 
 05 - Operador de asignación: Vamos a hacer suma, resta, multiplicación y división.
+
+06a - Operaciones Aritméticas: Solicitando dos números al usuario, realizamos las cuatro operaciones aritméticas más simples, imprimiendo posteriormente los resultados.
+
+06b - Operaciones Aritméticas - Pasando Celsius a Farenheit: En este ejercicio, creamos una herramienta que convierte ºC indicados por el usuario, a ºF.
