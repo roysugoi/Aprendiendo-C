@@ -1,4 +1,4 @@
-- Aprendiendo C -
+- Aprendiendo C
 
 El objetivo de este repositorio es documentar todo el proceso de aprendizaje en este lenguaje de programación, desde cero y con la vista puesta en la primera piscina de 42 Madrid.
 
