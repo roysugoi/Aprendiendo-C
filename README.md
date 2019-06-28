@@ -12,7 +12,7 @@ Los ejercicios están basados en varios webinars disponibles públicamente, los 
       
 Gracias también a todos los miembros del canal de Discord, que comparten información muy valiosa.
 
-Índice:
+- Índice:
 
 01 - Imprimir una línea y lo básico: 
 Con este ejemplo, vamos a imprimir una línea que dice "Hola 42".
