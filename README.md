@@ -8,7 +8,7 @@ Cualquier ayuda o aporte es siempre bien recibido, y ojalá sirva también de ay
 
 Los ejercicios están basados en varios webinars disponibles públicamente, mereciendo especial mención los siguientes (iré actualizando):
 
-  - Curso de Programación en C de cero a experto - Por Alejandro Taboada Sánchez
+   Curso de Programación en C de cero a experto - Por Alejandro Taboada Sánchez
 
 
 Índice:
