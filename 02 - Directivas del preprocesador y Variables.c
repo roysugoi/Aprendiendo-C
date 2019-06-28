@@ -24,4 +24,3 @@ int main(){ 			//Comenzamos con int main(){}, lo cual quiere decir que trabajare
 
 	return 0; 			//Gracias a poner return 0; podemos saber que la función ha terminado correctamente, y que nuestro programa no ha fallado en un punto a mitad de ejecución.
 }
-
