@@ -12,6 +12,7 @@ Los ejercicios están basados en varios webinars disponibles públicamente, los 
       
 Gracias también a todos los miembros del canal de Discord, que comparten información muy valiosa.
 
+
 - Índice:
 
 01 - Imprimir una línea y lo básico: 
