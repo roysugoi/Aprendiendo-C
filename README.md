@@ -27,3 +27,7 @@ Con este ejemplo, vamos a imprimir una línea que dice "Hola 42".
 04b - Entradas y Salidas de datos - Pidiendo un nombre: Vamos a solicitar al usuario que introduzca su nombre, e imprimirlo posteriormente.
 
 05 - Operador de asignación: Vamos a hacer suma, resta, multiplicación y división.
+
+06a - Operaciones Aritméticas: Solicitando dos números al usuario, realizamos las cuatro operaciones aritméticas más simples, imprimiendo posteriormente los resultados.
+
+06b - Operaciones Aritméticas - Pasando Celsius a Farenheit: En este ejercicio, creamos una herramienta que convierte ºC indicados por el usuario, a ºF.
