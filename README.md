@@ -6,7 +6,7 @@ La forma de documentar este proceso será sobre el propio código, describiendo 
 
 Cualquier ayuda o aporte es siempre bien recibido, y ojalá sirva también de ayuda a todos los que empezamos de cero en este lenguaje.
 
-Los ejercicios están basados en varios webinars disponibles públicamente, mereciendo especial mención los siguientes (iré actualizando):
+Los ejercicios están basados en varios webinars disponibles públicamente, los cuales referenciaré aquí para reconocer y agradecer el esfuerzo de sus autores (iré actualizando):
 
       Curso de Programación en C de cero a experto - Por Alejandro Taboada Sánchez
 
