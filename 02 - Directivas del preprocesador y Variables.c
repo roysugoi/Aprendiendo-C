@@ -1,6 +1,6 @@
-//Con este ejemplo, vamos a hacer una suma de número entero y una resta de un número real, y jugando con el valor de PI.
+//Con este ejemplo, vamos a hacer una suma de número entero y una resta de un número real, jugando con el valor de PI.
 
-#include <stdio.h>		//Las librerías son muy importantes, y empiezan por #include. "stdio" significa "standard input output" y ".h" significa "header", o archivo de cabecera. Sirve para poder poner cosas en pantalla y guardar datos.
+#include <stdio.h>		//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se añaden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
 #define PI 3.1416 		//Macros empiezan por #define, y sirven para definir variables que vayamos a utilizar posteriormente. En este caso decimos que PI vale 3.1416.
 

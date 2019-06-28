@@ -1,6 +1,6 @@
 //Aquí vamos a ver e imprimir un ejemplo de los distintos tipos de datos que podemos usar, su tamaño en bytes en la memoria de la máquina, y el rango. Después, imprimimos los ejemplos.
 
-#include <stdio.h>		//Las librerías son muy importantes, y empiezan por #include. "stdio" significa "standard input output" y ".h" significa "header", o archivo de cabecera. Sirve para poder poner cosas en pantalla y guardar datos.
+#include <stdio.h>		//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se añaden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
 int main(){				//Comenzamos con int main(){}, lo cual quiere decir que trabajaremos con una función PRINCIPAL que maneja números enteros (int).
 	
