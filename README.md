@@ -9,7 +9,8 @@ Cualquier ayuda o aporte es siempre bien recibido, y ojalá sirva también de ay
 Los ejercicios están basados en varios webinars disponibles públicamente, los cuales referenciaré aquí para reconocer y agradecer el esfuerzo de sus autores (iré actualizando):
 
       Curso de Programación en C de cero a experto - Por Alejandro Taboada Sánchez
-
+      
+Gracias también a todos los miembros del canal de Discord, que comparten información muy valiosa.
 
 Índice:
 
