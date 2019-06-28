@@ -1,4 +1,4 @@
-//Vamos a hacer suma, resta, multiplicación y división, solicitando dos números al usuario e imprimiendo los resultados.
+//En este ejercicio, creamos una herramienta que convierte ºC indicados por el usuario, a ºF.
 
 #include <stdio.h> 		//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se añaden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
