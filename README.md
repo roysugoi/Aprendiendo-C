@@ -1,4 +1,6 @@
-- Aprendiendo C
+Aprendiendo C
+
+___________________________________________________________________________________________________________________________________
 
 El objetivo de este repositorio es documentar todo el proceso de aprendizaje en este lenguaje de programación, desde cero y con la vista puesta en la primera piscina de 42 Madrid, para tener los conocimientos más básicos y aprovechar aún más la experiencia.
 
@@ -11,9 +13,12 @@ Los ejercicios están basados en varios webinars disponibles públicamente, los 
       Curso de Programación en C de cero a experto - Por Alejandro Taboada Sánchez
       
 Gracias también a todos los miembros del canal de Discord, que comparten información muy valiosa.
-
+</br>
+</br>
+</br>
 
 ÍNDICE
+___________________________________________________________________________________________________________________________________
 
 A - OPERADORES Y EXPRESIONES.
 
