@@ -6,8 +6,6 @@ El objetivo de este repositorio es documentar todo el proceso de aprendizaje en 
 
 La forma de documentar este proceso será **describiendo la función y la razón de todas y cada una de las líneas de código que se utilizan en los ejercicios**, en forma de comentario adyacente, y sin importar si dicha expresión ha sido utilizada en ejercicios previos.
 
-Cualquier ayuda o aporte es siempre bien recibido, y ojalá sirva también de ayuda a todos los que empezamos de cero en este lenguaje.
-
 Los ejercicios están basados en varios webinars disponibles públicamente, los cuales referenciaré aquí para reconocer y agradecer el esfuerzo de sus autores (iré actualizando):
 
         - [Curso de Programación en C de cero a experto - Por Alejandro Taboada Sánchez](https://app.tutellus.com/cuaderno/curso-de-programacion-en-c-de-cero-a-experto-5147)
