@@ -49,3 +49,7 @@ ________________________________________________________________________________
 14 - Calcular un salario por horas trabajadas: Mediante el coste por hora y las horas introducidas, obtenemos el salario a pagar de un empleado.
 
 15 - Calcular una calificación final por bloques desiguales: Este ejercicio propone calcular una calificación en base a varias calificaciones diferentes, con un peso también diferente en el cómputo global.
+
+16 - Calcular segundos en base a horas, minutos y segundos: Vamos a calcular la cantidad de segundos que hay en las horas, minutos, y segundos que un usuario introduzca.
+
+17 - Calcular la media geométrica de tres números: Vamos a calcular la media geométrica de tres número que un usuario introduzca, mediante el uso de la función pow para hacer raíces cúbicas.
