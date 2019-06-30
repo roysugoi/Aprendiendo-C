@@ -1,4 +1,4 @@
-//Vamos a calcular la cantidad de segundos que hay en las horas, minutos, y segundos que un usuario elija.
+//Vamos a calcular la cantidad de segundos que hay en las horas, minutos, y segundos que un usuario introduzca.
 
 #include<stdio.h>									//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se añaden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
