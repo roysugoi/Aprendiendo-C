@@ -1,6 +1,6 @@
 //Vamos a calcular la media geométrica de tres números que el usuario elija.
 
-#include <stdio.h>									//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se añaden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
+#include <stdio.h>								//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se añaden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 #include <math.h>									//Esta librería nos permitirá el uso de operaciones matemáticas como pow (potencias).
 
 int main (){										//Esta es la función principal (main) que vamos a crear. "Int" quiere decir que es un número entero.
