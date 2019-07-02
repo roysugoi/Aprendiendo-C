@@ -7,7 +7,7 @@ Dicha calificaci�n se compone de los siguientes porcentajes:
 
 #include <stdio.h> 		//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se a�aden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
-int main() 				//Esta es la funci�n principal (main) que vamos a crear. "Int" quiere decir que es un n�mero entero.
+int main() 				//Esta es la funci�n principal (main) que vamos a crear. "Int" quiere decir que es un número entero.
 {
 		int n1,n2,n3,promedio,examen_final,trabajo_final;							//Establecemos primero las variables que vamos a utilizar. Calcularemos primero cada apartado por separado, por lo que aunque estas son las variables, m�s adelante tenemos que inicializar las funciones que usaremos para calcular sus valores.
 
@@ -30,7 +30,7 @@ int main() 				//Esta es la funci�n principal (main) que vamos a crear. "Int" 
 
 		calificacion_final = total_promedio + total_examen + total_trabajo;		//Calculamos la calificaci�n final global sumando los resultados de los tres bloques.
 
-		printf("Tu nota final es: %i",calificacion_final);						//Parte textual en la que representamos el resultado en forma de n�mero entero (%i) de la funci�n calificaci�n_final.
+		printf("Tu nota final es: %i",calificacion_final);						//Parte textual en la que representamos el resultado en forma de número entero (%i) de la funci�n calificaci�n_final.
 
     return 0;			//Gracias a poner return 0; podemos saber que la funci�n ha terminado correctamente, y que nuestro programa no ha fallado en un punto a mitad de ejecuci�n. Es una buena costumbre utilizarlo.
 }

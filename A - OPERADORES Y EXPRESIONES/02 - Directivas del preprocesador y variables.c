@@ -1,4 +1,4 @@
-//Con este ejemplo, vamos a hacer una suma de n�mero entero y una resta de un n�mero real, jugando con el valor de PI.
+//Con este ejemplo, vamos a hacer una suma de número entero y una resta de un número real, jugando con el valor de PI.
 
 #include <stdio.h>		//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se a�aden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
@@ -20,7 +20,7 @@ int main(){ 			//Comenzamos con int main(){}, lo cual quiere decir que trabajare
 	
 	printf("La suma es %i\n",suma);  // El % indica qu� tipo de dato es, al ser entero, se escribe %i. A continuaci�n, ",suma" obliga a %i a imprimir el resultado de PI + x. \n sirve para crear una l�nea entre este y el siguiente rengl�n.
 
-	printf("La resta es %.2f",resta); // Aqu� hacemos lo mismo, pero al referirnos a un n�mero real con decimales usamos %f. El ".2" lo hemos a�adido porque no queremos much�simos decimales, con dos nos vale. Los decimales se redondean.
+	printf("La resta es %.2f",resta); // Aqu� hacemos lo mismo, pero al referirnos a un número real con decimales usamos %f. El ".2" lo hemos a�adido porque no queremos much�simos decimales, con dos nos vale. Los decimales se redondean.
 
 	return 0; 			//Gracias a poner return 0; podemos saber que la funci�n ha terminado correctamente, y que nuestro programa no ha fallado en un punto a mitad de ejecuci�n.
 }

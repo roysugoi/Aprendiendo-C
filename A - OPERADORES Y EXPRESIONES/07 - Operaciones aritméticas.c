@@ -2,7 +2,7 @@
 
 #include <stdio.h> 		//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se a�aden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
-int main() 				//Esta es la funci�n principal (main) que vamos a crear. "Int" quiere decir que es un n�mero entero.		
+int main() 				//Esta es la funci�n principal (main) que vamos a crear. "Int" quiere decir que es un número entero.		
 {
 
 	int n1,n2, suma = 0, resta = 0, mult = 0, div = 0;		//Primero tenemos que nombrar todas las variables y operaciones que vamos a usar en nuestra funci�n. Vamos a usar dos números (n1 y n2), y las cuatro operaciones m�s simples (+,-,*,/).
