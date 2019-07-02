@@ -1,18 +1,18 @@
 //En este ejercicio vamos a hacer una prueba de divisibilidad mediante la expresi�n IF.
 
-#include <stdio.h>			//Existen muchos tipos de librer�as, las cuales nos otorgan la capacidad de realizar funciones, y se a�aden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
+#include <stdio.h>			//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se a�aden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
 int main(){							//Esta es la funci�n principal (main) que vamos a crear. "Int" quiere decir que es un n�mero entero.
 
-	int n1,n2;						//Como siempre, lo primero es indicar las variables, en este caso dos n�meros enteros (int).
+	int n1,n2;						//Como siempre, lo primero es indicar las variables, en este caso dos números enteros (int).
 
-	printf("Dime dos números: ");		//Parte textual en la que pedimos al usuario que introduzca dos n�meros.
+	printf("Dime dos números: ");		//Parte textual en la que pedimos al usuario que introduzca dos números.
 
-	scanf("%i %i",&n1,&n2);					//Mediante scanf, habilitamos la posibilidad de que el usuario introduzca dichos n�meros. Guardarmos los n�meros enteros (%i %i) como n1 y n2" (&n1 &n2).
+	scanf("%i %i",&n1,&n2);					//Mediante scanf, habilitamos la posibilidad de que el usuario introduzca dichos números. Guardarmos los números enteros (%i %i) como n1 y n2" (&n1 &n2).
 
 	if(n1 % n2 == 0){								//Usamos if para generar una situaci�n condicional. En este caso, si n1 es divisible (lo cual se escribe como %) entre 2, y el residuo es 0 (lo cual se escribe como == 0) entonces se cumplir� la funci�n/impresi�n a continuaci�n.
 
-		printf("El número %i es divisible entre %i",n1,n2); 		//Parte textual que aparece SOLO si los n�meros introducidos por el usuario dan como resto 0.
+		printf("El número %i es divisible entre %i",n1,n2); 		//Parte textual que aparece SOLO si los números introducidos por el usuario dan como resto 0.
 
 	}
 

@@ -1,24 +1,24 @@
-//Vamos a hacer suma, resta, multiplicación y división. El operador de asignación es el =.
+//Vamos a hacer suma, resta, multiplicaciï¿½n y divisiï¿½n. El operador de asignaciï¿½n es el =.
 
-#include <stdio.h> 		//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se añaden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
+#include <stdio.h> 		//Existen muchos tipos de librerÃ­as, las cuales nos otorgan la capacidad de realizar funciones, y se aï¿½aden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
-int main() 				//Esta es la función principal (main) que vamos a crear. "Int" quiere decir que es un número entero.		
+int main() 				//Esta es la funciï¿½n principal (main) que vamos a crear. "Int" quiere decir que es un nï¿½mero entero.
 {
-    int a = 10;			//Aquí estamos asignando un valor (10) a una variable local, que es a.
-    
-    a += 10; 			//Es lo mismo usar esta expresión que a = a + 10. De esta forma usamos menos líneas de código que si nombramos dos variables. Si usásemos dos, podríamos primero nombrar int x, y después decir que x = a + 10, lo que nos daría el mismo resultado (20).
-    
-    /* En lo que respecta a resta, multiplicación y división:
-	
-	a -= 5;				//Es lo mismo usar esta expresión que a = a - 5.
-    
-    a *= 2;				//Es lo mismo usar esta expresión que a = a * 2.
-    
-    a /= 2;				//Es lo mismo usar esta expresión que a = a / 2.
-    
+    int a = 10;			//Aquï¿½ estamos asignando un valor (10) a una variable local, que es a.
+
+    a += 10; 			//Es lo mismo usar esta expresiï¿½n que a = a + 10. De esta forma usamos menos lï¿½neas de cï¿½digo que si nombramos dos variables. Si usï¿½semos dos, podrï¿½amos primero nombrar int x, y despuï¿½s decir que x = a + 10, lo que nos darï¿½a el mismo resultado (20).
+
+    /* En lo que respecta a resta, multiplicaciï¿½n y divisiï¿½n:
+
+	a -= 5;				//Es lo mismo usar esta expresiï¿½n que a = a - 5.
+
+    a *= 2;				//Es lo mismo usar esta expresiï¿½n que a = a * 2.
+
+    a /= 2;				//Es lo mismo usar esta expresiï¿½n que a = a / 2.
+
     */
-	   
-    printf("El resultado es: %i",a);	//Imprimimos así el resultado de la operación a +=10, equivalente a (a = a + 10).
-    
-    return 0;			//Gracias a poner return 0; podemos saber que la función ha terminado correctamente, y que nuestro programa no ha fallado en un punto a mitad de ejecución. Es una buena costumbre utilizarlo.
+
+    printf("El resultado es: %i",a);	//Imprimimos asï¿½ el resultado de la operaciï¿½n a +=10, equivalente a (a = a + 10).
+
+    return 0;			//Gracias a poner return 0; podemos saber que la funciï¿½n ha terminado correctamente, y que nuestro programa no ha fallado en un punto a mitad de ejecuciï¿½n. Es una buena costumbre utilizarlo.
 }

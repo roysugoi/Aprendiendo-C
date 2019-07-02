@@ -1,33 +1,33 @@
 //Vamos a calcular la cantidad de segundos que hay en las horas, minutos, y segundos que un usuario introduzca.
 
-#include<stdio.h>									//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se añaden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
+#include<stdio.h>									//Existen muchos tipos de librerÃ­as, las cuales nos otorgan la capacidad de realizar funciones, y se aï¿½aden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
-int main (){										//Esta es la función principal (main) que vamos a crear. "Int" quiere decir que es un número entero.
+int main (){										//Esta es la funciï¿½n principal (main) que vamos a crear. "Int" quiere decir que es un nï¿½mero entero.
 	
-	int horas,minutos,segundos,t1,t2,t3,total;		//Como siempre, lo primero es indicar las variables, en este caso usamos números enteros (int).
+	int horas,minutos,segundos,t1,t2,t3,total;		//Como siempre, lo primero es indicar las variables, en este caso usamos nÃºmeros enteros (int).
 	
-	printf("Número de horas: ");					//Parte textual en la que preguntamos cuántas horas son.
+	printf("Nï¿½mero de horas: ");					//Parte textual en la que preguntamos cuï¿½ntas horas son.
 	
-	scanf("%i",&horas);								//Mediante scanf, habilitamos la posibilidad de que el usuario introduzca dichas horas. Guardarmos el número entero (%i) como "horas" (&horas).
+	scanf("%i",&horas);								//Mediante scanf, habilitamos la posibilidad de que el usuario introduzca dichas horas. Guardarmos el nï¿½mero entero (%i) como "horas" (&horas).
 	
-	printf("Número de minutos: ");					//Parte textual en la que preguntamos cuántos minutos son.
+	printf("Nï¿½mero de minutos: ");					//Parte textual en la que preguntamos cuï¿½ntos minutos son.
 	
-	scanf("%i",&minutos);							//Mediante scanf, habilitamos la posibilidad de que el usuario introduzca dichos minutos. Guardarmos el número entero (%i) como "minutos" (&minutos).
+	scanf("%i",&minutos);							//Mediante scanf, habilitamos la posibilidad de que el usuario introduzca dichos minutos. Guardarmos el nï¿½mero entero (%i) como "minutos" (&minutos).
 	
-	printf("Número de segundos: ");					//Parte textual en la que preguntamos cuántos segundos son.
+	printf("Nï¿½mero de segundos: ");					//Parte textual en la que preguntamos cuï¿½ntos segundos son.
 	
-	scanf("%i",&segundos);							//Mediante scanf, habilitamos la posibilidad de que el usuario introduzca dichos segundos. Guardarmos el número entero (%i) como "segundos" (&segundos).
+	scanf("%i",&segundos);							//Mediante scanf, habilitamos la posibilidad de que el usuario introduzca dichos segundos. Guardarmos el nï¿½mero entero (%i) como "segundos" (&segundos).
 	
-	t1 = horas * 3600;								//Fórmula para calcular los segundos por hora.
+	t1 = horas * 3600;								//Fï¿½rmula para calcular los segundos por hora.
 	
-	t2 = minutos * 60;								//Fórmula para calcular los segundos por minuto.
+	t2 = minutos * 60;								//Fï¿½rmula para calcular los segundos por minuto.
 	
-	t3 = segundos;									//Fórmula para calcular los segundos y asignarlos a t3.
+	t3 = segundos;									//Fï¿½rmula para calcular los segundos y asignarlos a t3.
 	
-	total = t1 + t2 + t3;							//Fórmula para calcular la suma de todos los segundos que hay en t1, t2, y t3.
+	total = t1 + t2 + t3;							//Fï¿½rmula para calcular la suma de todos los segundos que hay en t1, t2, y t3.
 	
-	printf("Eso son %i segundos",total);			//Parte textual en la que mostramos el resultado calculado, el cual es un número entero (%i), de la función "total".
+	printf("Eso son %i segundos",total);			//Parte textual en la que mostramos el resultado calculado, el cual es un nï¿½mero entero (%i), de la funciï¿½n "total".
 	
-	return 0;										//Gracias a poner return 0; podemos saber que la función ha terminado correctamente, y que nuestro programa no ha fallado en un punto a mitad de ejecución. Es una buena costumbre utilizarlo.
+	return 0;										//Gracias a poner return 0; podemos saber que la funciï¿½n ha terminado correctamente, y que nuestro programa no ha fallado en un punto a mitad de ejecuciï¿½n. Es una buena costumbre utilizarlo.
 	
 	}

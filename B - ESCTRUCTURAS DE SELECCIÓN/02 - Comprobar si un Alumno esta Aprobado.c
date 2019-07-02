@@ -1,27 +1,27 @@
-//En este ejercicio vamos a crear una herramienta que nos dice en base a la nota de un examen si un alumno está o no aprobado.
+//En este ejercicio vamos a crear una herramienta que nos dice en base a la nota de un examen si un alumno estï¿½ o no aprobado.
 
-#include <stdio.h>			//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se añaden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
+#include <stdio.h>			//Existen muchos tipos de librerÃ­as, las cuales nos otorgan la capacidad de realizar funciones, y se aï¿½aden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
-int main(){					//Esta es la función principal (main) que vamos a crear. "Int" quiere decir que es un número entero.
-	
+int main(){					//Esta es la funciï¿½n principal (main) que vamos a crear. "Int" quiere decir que es un nÃºmero entero.
+
 	float nota;				//Fijamos la variable REAL mediante float, dado que es muy probable que salga un decimal en una nota.
-	
-	printf("¿Qué nota has tenido en el examen?" );		//Parte textual en la que preguntamos al usuario su nota.
-	
-	scanf("%f",&nota);									//Mediante scanf habilitamos la posibilidad de que el usuario introduzca su nota. Al poder ser un número REAL usamos %f y lo guardamos como nota mediante &nota.
-	
+
+	printf("ï¿½Quï¿½ nota has tenido en el examen?" );		//Parte textual en la que preguntamos al usuario su nota.
+
+	scanf("%f",&nota);									//Mediante scanf habilitamos la posibilidad de que el usuario introduzca su nota. Al poder ser un nÃºmero REAL usamos %f y lo guardamos como nota mediante &nota.
+
 	if (nota >= 5){										//Condicionamos a que, si la nota es superior o igual a 5, se imprima un mensaje de aprobado.
-	
+
 		printf("Has aprobado");							//Parte textual en la que confirmamos al usuario que ha aprobado.
-		
+
 	}
-	
+
 	else {
-		
+
 		printf("No has aprobado" );						//Parte textual en la que confirmamos al usuario que no ha aprobado.
-		
+
 	}
-	
-	return 0;							//Gracias a poner return 0; podemos saber que la función ha terminado correctamente, y que nuestro programa no ha fallado en un punto a mitad de ejecución. Es una buena costumbre utilizarlo.
+
+	return 0;							//Gracias a poner return 0; podemos saber que la funciï¿½n ha terminado correctamente, y que nuestro programa no ha fallado en un punto a mitad de ejecuciï¿½n. Es una buena costumbre utilizarlo.
 
 }
