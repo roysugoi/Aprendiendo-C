@@ -1,8 +1,8 @@
-//Vamos a hacer un programa que calcule el �rea de un trapecio.
+//Vamos a hacer un programa que calcule el área de un trapecio.
 
-#include <stdio.h> 		//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se a�aden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
+#include <stdio.h> 		//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se añaden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
-int main() 				//Esta es la funci�n principal (main) que vamos a crear. "Int" quiere decir que es un número entero.
+int main() 				//Esta es la función principal (main) que vamos a crear. "Int" quiere decir que es un número entero.
 {
 	float base_M, base_m, altura, area;
 
@@ -15,9 +15,9 @@ int main() 				//Esta es la funci�n principal (main) que vamos a crear. "Int" 
 	printf("Medida de la altura: ");				//Parte textual en la que preguntamos la base altura.
 	scanf("%f",&altura);							//Con este scanf el usuario puede introducir la longitud de la altura. Al ser un número REAL usamos %f.
 
-	area = ((base_M + base_m) / 2) * altura;		//Expresamos as� la f�rmula para calcular el �rea de un trapecio.
+	area = ((base_M + base_m) / 2) * altura;		//Expresamos así la fórmula para calcular el área de un trapecio.
 
-	printf("El �rea es %.2f",area);					//Imprimimos la parte textual, y despu�s de la coma, el resultado de la funci�n area.
+	printf("El área es %.2f",area);					//Imprimimos la parte textual, y después de la coma, el resultado de la función area.
 
-    return 0;			//Gracias a poner return 0; podemos saber que la funci�n ha terminado correctamente, y que nuestro programa no ha fallado en un punto a mitad de ejecuci�n. Es una buena costumbre utilizarlo.
+    return 0;			//Gracias a poner return 0; podemos saber que la función ha terminado correctamente, y que nuestro programa no ha fallado en un punto a mitad de ejecución. Es una buena costumbre utilizarlo.
 }

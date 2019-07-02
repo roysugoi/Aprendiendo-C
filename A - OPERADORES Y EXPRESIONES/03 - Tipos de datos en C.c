@@ -1,10 +1,10 @@
-//Aqu� vamos a ver e imprimir un ejemplo de los distintos tipos de datos que podemos usar, su tama�o en bytes en la memoria de la m�quina, y el rango. Despu�s, imprimimos los ejemplos.
+//Aquí vamos a ver e imprimir un ejemplo de los distintos tipos de datos que podemos usar, su tamaño en bytes en la memoria de la máquina, y el rango. después, imprimimos los ejemplos.
 
-#include <stdio.h>		//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se a�aden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
+#include <stdio.h>		//Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se añaden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
-int main(){				//Comenzamos con int main(){}, lo cual quiere decir que trabajaremos con una funci�n PRINCIPAL que maneja números enteros (int).
+int main(){				//Comenzamos con int main(){}, lo cual quiere decir que trabajaremos con una función PRINCIPAL que maneja números enteros (int).
 
-	char a = 'e';				//"Char" viene de character, y puede ser un elemento cualquiera, sea número, letra o s�mbolo. Aqu� decimos que el caracter "a" pasa a ser "e". BYTES: 1, RANGO: 0 .. 255.
+	char a = 'e';				//"Char" viene de character, y puede ser un elemento cualquiera, sea número, letra o símbolo. Aquí decimos que el caracter "a" pasa a ser "e". BYTES: 1, RANGO: 0 .. 255.
 
 	short b = -15;				//BYTES: 2, RANGO: -128 .. 127.
 
@@ -18,21 +18,21 @@ int main(){				//Comenzamos con int main(){}, lo cual quiere decir que trabajare
 
 	double g = 871239.76123;	//BYTES: 8, RANGO: 2.3E-308 to 1.7E+308 y 15 decimales.
 
-	printf("El char es %c \n",a);			//El % indica qu� tipo de dato es, al ser un char (pudiendo no ser un número), se escribe %c. A continuaci�n, decimos que imprima el valor "a". \n sirve para crear una l�nea entre este y el siguiente rengl�n.
+	printf("El char es %c \n",a);			//El % indica qué tipo de dato es, al ser un char (pudiendo no ser un número), se escribe %c. A continuación, decimos que imprima el valor "a". \n sirve para crear una línea entre este y el siguiente renglón.
 
-	printf("El short es %i \n",b);			//El % indica qu� tipo de dato es, al ser un short de un número entero, se escribe %i. A continuaci�n, decimos que imprima el valor "b".\n sirve para crear una l�nea entre este y el siguiente rengl�n.
+	printf("El short es %i \n",b);			//El % indica qué tipo de dato es, al ser un short de un número entero, se escribe %i. A continuación, decimos que imprima el valor "b".\n sirve para crear una línea entre este y el siguiente renglón.
 
-	printf("El int es %i \n",c);			//El % indica qu� tipo de dato es, al ser un int, se escribe %i. A continuaci�n, decimos que imprima el valor "c". \n sirve para crear una l�nea entre este y el siguiente rengl�n.
+	printf("El int es %i \n",c);			//El % indica qué tipo de dato es, al ser un int, se escribe %i. A continuación, decimos que imprima el valor "c". \n sirve para crear una línea entre este y el siguiente renglón.
 
-	printf("El unsigned int es %i \n",d);	//El % indica qu� tipo de dato es, al ser un int, se escribe %i. A continuaci�n, decimos que imprima el valor "d". \n sirve para crear una l�nea entre este y el siguiente rengl�n.
+	printf("El unsigned int es %i \n",d);	//El % indica qué tipo de dato es, al ser un int, se escribe %i. A continuación, decimos que imprima el valor "d". \n sirve para crear una línea entre este y el siguiente renglón.
 
-	printf("El long es %li \n",e);			//En el caso del long int se escribe %li. A continuaci�n, decimos que imprima el valor "e". \n sirve para crear una l�nea entre este y el siguiente rengl�n.
+	printf("El long es %li \n",e);			//En el caso del long int se escribe %li. A continuación, decimos que imprima el valor "e". \n sirve para crear una línea entre este y el siguiente renglón.
 
-	printf("El float es %.2f \n",f);		//Al referirnos a un número real con decimales usamos %f. El ".2" lo hemos a�adido porque no queremos much�simos decimales, con dos nos vale. Los decimales se redondean.
+	printf("El float es %.2f \n",f);		//Al referirnos a un número real con decimales usamos %f. El ".2" lo hemos añadido porque no queremos muchísimos decimales, con dos nos vale. Los decimales se redondean.
 
 	printf("El double es %lf \n",g);		//En este caso usamos %lf, equivalente a long float, dado que es un número con decimales.
 
-	printf("%c %i %f",a,b,f);				//As� es como podemos poner en un mismo printf muchas variables seguidas, respetando el tipo de dato y el orden en el que los ponemos.
+	printf("%c %i %f",a,b,f);				//así es como podemos poner en un mismo printf muchas variables seguidas, respetando el tipo de dato y el orden en el que los ponemos.
 
-	return 0;			//Gracias a poner return 0; podemos saber que la funci�n ha terminado correctamente, y que nuestro programa no ha fallado en un punto a mitad de ejecuci�n. Es una buena costumbre utilizarlo.
+	return 0;			//Gracias a poner return 0; podemos saber que la función ha terminado correctamente, y que nuestro programa no ha fallado en un punto a mitad de ejecución. Es una buena costumbre utilizarlo.
 }
