@@ -42,15 +42,15 @@ int main (){          //Esta es la función principal (main) que vamos a crear. 
 		case 9:	printf("XC");break;   //En caso de que el resultado sea int = 1, se imprimirá XC, representando el valor 90.
 	  }
 	switch(unidades){               //Establecemos las reglas mediante la sentencia switch para mostrar las unidades.
-		case 1: printf("I");break;    //En caso de que el resultado sea int = 1, se imprimirá C, representando el valor 1.
-		case 2: printf("II");break;   //En caso de que el resultado sea int = 1, se imprimirá C, representando el valor 2.
-		case 3: printf("III");break;  //En caso de que el resultado sea int = 1, se imprimirá C, representando el valor 3.
-		case 4: printf("IV");break;   //En caso de que el resultado sea int = 1, se imprimirá C, representando el valor 4.
-		case 5: printf("V");break;    //En caso de que el resultado sea int = 1, se imprimirá C, representando el valor 5.
-		case 6: printf("VI");break;   //En caso de que el resultado sea int = 1, se imprimirá C, representando el valor 6.
-		case 7: printf("VII");break;  //En caso de que el resultado sea int = 1, se imprimirá C, representando el valor 7.
-		case 8: printf("VIII");break; //En caso de que el resultado sea int = 1, se imprimirá C, representando el valor 8.
-		case 9:	printf("IX");break;   //En caso de que el resultado sea int = 1, se imprimirá C, representando el valor 9.
+		case 1: printf("I");break;    //En caso de que el resultado sea int = 1, se imprimirá I, representando el valor 1.
+		case 2: printf("II");break;   //En caso de que el resultado sea int = 1, se imprimirá II, representando el valor 2.
+		case 3: printf("III");break;  //En caso de que el resultado sea int = 1, se imprimirá III, representando el valor 3.
+		case 4: printf("IV");break;   //En caso de que el resultado sea int = 1, se imprimirá IV, representando el valor 4.
+		case 5: printf("V");break;    //En caso de que el resultado sea int = 1, se imprimirá V, representando el valor 5.
+		case 6: printf("VI");break;   //En caso de que el resultado sea int = 1, se imprimirá VI, representando el valor 6.
+		case 7: printf("VII");break;  //En caso de que el resultado sea int = 1, se imprimirá VII, representando el valor 7.
+		case 8: printf("VIII");break; //En caso de que el resultado sea int = 1, se imprimirá VIII, representando el valor 8.
+		case 9:	printf("IX");break;   //En caso de que el resultado sea int = 1, se imprimirá IX, representando el valor 9.
 	  }
 
   return 0; 	//Gracias a poner return 0; podemos saber que la función ha terminado correctamente, y que nuestro programa no ha fallado en un punto a mitad de ejecución. Es una buena costumbre utilizarlo.
