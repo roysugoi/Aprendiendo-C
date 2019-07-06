@@ -9,10 +9,10 @@ int main (){          //Esta es la función principal (main) que vamos a crear. 
   printf("Introduce el número: ");  //Parte textual en la que pedimos al usuario que introduzca el número a convertir.
   scanf("%i",&n1);    //Mediante scanf permitimos que el usuario introduzca dicho número.
 
-  unidades = n1%10; n1 = n1/10;     //Establecemos las reglas para "desmenuzar" las unidades del número introducido.
-  decenas = n1%10; n1 = n1/10;      //Establecemos las reglas para "desmenuzar" las decenas del número introducido.
-  centenas = n1%10; n1 = n1/10;     //Establecemos las reglas para "desmenuzar" las centenas del número introducido.
-  millares = n1%10; n1 = n1/10;     //Establecemos las reglas para "desmenuzar" los millares del número introducido.
+  unidades = n1%10; n1 = n1/10;     //Si cogemos n1, y lo dividimos entre 10, la expresión n1%10 lo que hace es coger el resto y usarlo para n1/10, es decir resto/10.
+  decenas = n1%10; n1 = n1/10;      //Si cogemos n1, y lo dividimos entre 10, la expresión n1%10 lo que hace es coger el resto y usarlo para n1/10, es decir resto/10.
+  centenas = n1%10; n1 = n1/10;     //Si cogemos n1, y lo dividimos entre 10, la expresión n1%10 lo que hace es coger el resto y usarlo para n1/10, es decir resto/10.
+  millares = n1%10; n1 = n1/10;     //Si cogemos n1, y lo dividimos entre 10, la expresión n1%10 lo que hace es coger el resto y usarlo para n1/10, es decir resto/10.
 
   switch(millares){                 //Establecemos las reglas mediante la sentencia switch para mostrar los millares.
 		case 1: printf("M");break;    //En caso de que el resultado sea int = 1, se imprimirá M, representando el valor 1000.
