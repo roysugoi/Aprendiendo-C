@@ -1,6 +1,6 @@
-// Vamos a entender el funcionamiento de la sentencia Switch con su Default. Es como comparar el If, con su Else.
-
 /*
+
+Vamos a entender el funcionamiento de la sentencia Switch con su Default. Es como comparar el If, con su Else.
 
 Este es el esquema que sigue switch:
 
@@ -12,6 +12,7 @@ caso var3 : sentencias3;break;
 default: sentencias;
 
 }
+
 */
 
 #include <stdio.h>    //Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se añaden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
