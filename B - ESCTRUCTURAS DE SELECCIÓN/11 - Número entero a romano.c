@@ -43,7 +43,7 @@ int main (){          //Esta es la función principal (main) que vamos a crear. 
 		case 8: printf("LXXX");break; //En caso de que el resultado sea int = 1, se imprimirá LXXX, representando el valor 80.
 		case 9:	printf("XC");break;   //En caso de que el resultado sea int = 1, se imprimirá XC, representando el valor 90.
 	  }
-    
+
 	switch(unidades){               //Establecemos las reglas mediante la sentencia switch para mostrar las unidades.
 		case 1: printf("I");break;    //En caso de que el resultado sea int = 1, se imprimirá I, representando el valor 1.
 		case 2: printf("II");break;   //En caso de que el resultado sea int = 1, se imprimirá II, representando el valor 2.
