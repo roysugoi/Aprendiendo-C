@@ -1,4 +1,11 @@
-//Vamos a usar la sentencia switch para mostrar la equivalencia de una nota de la A a la F en Sobresaliente a Insuficiente.
+/*Vamos a usar la sentencia switch para mostrar la equivalencia de una nota de la A a la F en Sobresaliente a Insuficiente.
+
+A = Sobresaliente
+B = Notable
+C = Bien
+D y F = Insuficiente
+
+*/
 
 #include <stdio.h> //Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se añaden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
