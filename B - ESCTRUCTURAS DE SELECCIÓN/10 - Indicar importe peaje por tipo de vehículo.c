@@ -7,7 +7,7 @@ int main(){           //Esta es la función principal (main) que vamos a crear. 
   int tipo, peaje;    //Declaramos nuestras variables, en este caso, el tipo de vehículo y el peaje a pagar, ambas serán números enteros (int).
 
   printf("Introduzca su tipo de vehículo, siendo:\n1 Turismo\n2 Motocicleta\n3 Autobús\n4 Camión\n\n"); //Parte textual en la que preguntamos al usuario su tipo de vehículo.
-  scanf("%i",&tipo);  //Mediante scanf permitimos al usuario introducir el tipo de vehículo (%i) y guardarlo como tipo (&tipo).
+  scanf("%i",&tipo);  //Mediante scanf() permitimos al usuario introducir el tipo de vehículo (%i) y guardarlo como tipo (&tipo).
 
   switch (tipo) {     //Utilizamos switch para diferenciar cada tipo de vehículo.
 
