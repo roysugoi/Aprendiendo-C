@@ -19,6 +19,7 @@ int main (){          //Esta es la función principal (main) que vamos a crear. 
 		case 2: printf("MM");break;   //En caso de que el resultado sea int = 2, se imprimirá MM, representando el valor 2000.
 		case 3: printf("MMM");break;  //En caso de que el resultado sea int = 2, se imprimirá MMM, representando el valor 3000.
   	}
+
 	switch(centenas){               //Establecemos las reglas mediante la sentencia switch para mostrar las centenas.
 		case 1: printf("C");break;    //En caso de que el resultado sea int = 1, se imprimirá C, representando el valor 100.
 		case 2: printf("CC");break;   //En caso de que el resultado sea int = 1, se imprimirá CC, representando el valor 200.
@@ -30,6 +31,7 @@ int main (){          //Esta es la función principal (main) que vamos a crear. 
 		case 8: printf("DCCC");break; //En caso de que el resultado sea int = 1, se imprimirá DCCC, representando el valor 800.
 		case 9: printf("CM");break;   //En caso de que el resultado sea int = 1, se imprimirá CM, representando el valor 900.
 	  }
+
 	switch(decenas){                //Establecemos las reglas mediante la sentencia switch para mostrar las decenas.
 		case 1: printf("X");break;    //En caso de que el resultado sea int = 1, se imprimirá X, representando el valor 10.
 		case 2: printf("XX");break;   //En caso de que el resultado sea int = 1, se imprimirá XX, representando el valor 20.
@@ -41,6 +43,7 @@ int main (){          //Esta es la función principal (main) que vamos a crear. 
 		case 8: printf("LXXX");break; //En caso de que el resultado sea int = 1, se imprimirá LXXX, representando el valor 80.
 		case 9:	printf("XC");break;   //En caso de que el resultado sea int = 1, se imprimirá XC, representando el valor 90.
 	  }
+    
 	switch(unidades){               //Establecemos las reglas mediante la sentencia switch para mostrar las unidades.
 		case 1: printf("I");break;    //En caso de que el resultado sea int = 1, se imprimirá I, representando el valor 1.
 		case 2: printf("II");break;   //En caso de que el resultado sea int = 1, se imprimirá II, representando el valor 2.
