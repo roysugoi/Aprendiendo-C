@@ -9,7 +9,7 @@ int n1;           //Declaramos las variables que vamos a usar, en este caso, el 
 printf("Introduce un número: ");  //Parte textual en la que pedimos al usuario que introduzca un número par o impar.
 scanf("%i",&n1);  //Mediante scanf, permitimos que el usuario pueda introducir un número entero (int) y guardarlo como n1 (%n1).
 
-(n1%2==0) ? printf("El número es par") : printf("El número es impar");  //Si n1 es divisile entre 2 y el resto es 0 (n1%2==0) entonces se hará, en función del resultado (?) la primera asunción (par) o la segunda (impar).
+(n1%2==0) ? printf("El número es par") : printf("El número es impar");  //Si n1 es divisile entre 2 y el resto es 0 (n1%2==0) entonces se hará (:), en función del resultado (?) la primera asunción (par) o la segunda (impar).
 
 return 0;         //Gracias a poner return 0; podemos saber que la función ha terminado correctamente, y que nuestro programa no ha fallado en un punto a mitad de ejecución. Es una buena costumbre utilizarlo.
 }
