@@ -1,6 +1,6 @@
 /*
 
-Vamos a entender el funcionamiento de la sentencia Switch con su Default. Es como comparar el If, con su Else.
+Vamos a entender el funcionamiento de la sentencia SWITCH con su DEFAULT. Es como comparar IF con su ELSE.
 
 Este es el esquema que sigue switch:
 
