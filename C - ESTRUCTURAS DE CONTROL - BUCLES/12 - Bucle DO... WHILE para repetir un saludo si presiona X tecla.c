@@ -4,7 +4,7 @@
 
 int main(){             //Esta es la función principal (main) que vamos a crear. "Int" quiere decir que es un número entero.
 
-	char option;								//Declaramos las variables que utilizaremos, en este caso el número de iteraciones que vaya realizando el bucle (i).
+	char option;          //Declaramos las variables que utilizaremos, en este caso el número de iteraciones que vaya realizando el bucle (i).
 
 	do {									//Mediante DO, ejecutamos una primera parte del código de manera incondicional.
 
