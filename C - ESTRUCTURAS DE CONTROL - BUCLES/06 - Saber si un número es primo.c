@@ -1,4 +1,4 @@
-//Suma de los 10 primeros números pares.
+//Saber si un número introducido es primo.
 
 #include <stdio.h>        //Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se añaden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
