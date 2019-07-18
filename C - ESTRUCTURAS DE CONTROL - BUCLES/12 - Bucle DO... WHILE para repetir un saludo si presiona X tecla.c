@@ -1,4 +1,4 @@
-//Programa que mediante el bucle do... while, muestre en pantalla los 10 primeros números.
+//Programa que mediante el bucle DO... WHILE, muestre en pantalla los 10 primeros números.
 
 #include <stdio.h>      //Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se añaden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
