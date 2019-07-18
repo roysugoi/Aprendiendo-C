@@ -6,7 +6,7 @@ int main(){             //Esta es la función principal (main) que vamos a crear
 
 	char option;          //Declaramos las variables que utilizaremos, en este caso el número de iteraciones que vaya realizando el bucle (i).
 
-	do {									//Mediante DO, ejecutamos una primera parte del código de manera incondicional.
+	do {                  //Mediante DO, ejecutamos una primera parte del código de manera incondicional.
 
 		fflush(stdin);			//Mediante ésta expresión hacemos que el programa borre de la memoria el resultado para que la consola no se cierre, siempre y cuando se cumpla la condición del WHILE.
 
