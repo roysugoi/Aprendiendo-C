@@ -18,7 +18,7 @@ int main(){             //Esta es la función principal (main) que vamos a crear
 
 	suma = sumar(a,b);    //Indicamos en nuestra función principal que la operación de sumar la vamos a realizar con el resultado que se obtiene de la función sumar, la cual está compuesta por a y b (a,b).
 
-	printf("La suma es %i",suma);        //Parte textual en la que indicamos al usuario el resultado (%i) de la operación suma (,suma).
+	printf("La suma es %i",suma);        //Parte textual en la que indicamos al usuario el resultado (%i) de la operación suma (,suma). Otra forma de hacerlo, sería diciéndole al printf que imprima ("",sumar(a,b)), por lo que no haría falta la operación previa suma = sumar(a,b) y ahorraríamos líneas de código.
 
 	return 0;             //Gracias a poner return 0; podemos saber que la función ha terminado correctamente, y que nuestro programa no ha fallado en un punto a mitad de ejecución. Es una buena costumbre utilizarlo.
 
