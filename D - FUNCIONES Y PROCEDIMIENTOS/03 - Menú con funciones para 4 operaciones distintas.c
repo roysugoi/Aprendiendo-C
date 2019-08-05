@@ -27,7 +27,7 @@ void menu(){               //Esta será nuestra primera función secundaria. Su 
 		printf("\nOpción: ");         //Parte textual en la que solicitamos al usuario que introduzca su elección.
 		scanf("%i",&opc);             //Mediante scanf permitimos que el usuario introduzca el número de la opción.
 
-		switch (opc) {                //Utilizamos switch para diferenciar y elegir una opción (casos) en función de lo que el usuario introduzca.
+		switch (opc) {                //Utilizamos switch para diferenciar y ejecutar una expresión (casos) en función de lo que el usuario introduzca.
 			case 1: sumar();break;      //Si el usuario intruduce 1, se cargará la función sumar(). Break hace que el programa sepa compartimentar los casos.
 			case 2:	restar();break;     //Si el usuario intruduce 2, se cargará la función restar(). Break hace que el programa sepa compartimentar los casos.
 			case 3:	mult();break;       //Si el usuario intruduce 3, se cargará la función mult(). Break hace que el programa sepa compartimentar los casos.
