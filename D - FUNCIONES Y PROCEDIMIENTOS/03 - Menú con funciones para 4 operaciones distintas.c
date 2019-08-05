@@ -3,13 +3,9 @@
 #include <stdio.h>         //Existen muchos tipos de librerías, las cuales nos otorgan la capacidad de realizar funciones, y se añaden precedidas por #include. "stdio" significa "standard input output" y ".h" significa "header". Nos sirve para poder poner cosas en pantalla y guardar datos.
 
 	void menu();             //Esto es un "prototipo". Con esta sentencia indicamos, debajo de la librería, que nuestro programa contiene la función void menu(). Hace que sea más eficiente, y es una buena práctica de programación.
-
 	void sumar();            //Esto es un "prototipo". Con esta sentencia indicamos, debajo de la librería, que nuestro programa contiene la función void sumar(). Hace que sea más eficiente, y es una buena práctica de programación.
-
 	void restar();           //Esto es un "prototipo". Con esta sentencia indicamos, debajo de la librería, que nuestro programa contiene la función void restar(). Hace que sea más eficiente, y es una buena práctica de programación.
-
 	void mult();             //Esto es un "prototipo". Con esta sentencia indicamos, debajo de la librería, que nuestro programa contiene la función void mult(). Hace que sea más eficiente, y es una buena práctica de programación.
-
 	void dividir();          //Esto es un "prototipo". Con esta sentencia indicamos, debajo de la librería, que nuestro programa contiene la función void dividir(). Hace que sea más eficiente, y es una buena práctica de programación.
 
 int main(){                //Esta es nuestra función principal. En este caso vamos a mostrar la función de menú, para que muestre en pantalla al iniciar las opciones que queramos que el usuario tenga a su disposición.
