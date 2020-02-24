@@ -52,4 +52,4 @@ ________________________________________________________________________________
 
 16 - Calcular segundos en base a horas, minutos y segundos: Vamos a calcular la cantidad de segundos que hay en las horas, minutos, y segundos que un usuario introduzca.
 
-17 - Calcular la media geométrica de tres números: Vamos a calcular la media geométrica de tres número que un usuario introduzca, mediante el uso de la función pow para hacer raíces cúbicas.
+17 - Calcular la media geométrica de tres números: Vamos a calcular la media geométrica de tres números que un usuario introduzca, mediante el uso de la función pow para hacer raíces cúbicas.
